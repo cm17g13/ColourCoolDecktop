@@ -20,10 +20,29 @@ namespace ColourCool
     /// </summary>
     public partial class ColourCoolDevice : Page
     {
+
+        Color red = Color.FromRgb(255, 0, 0);
+        Color green = Color.FromRgb(0, 255, 0);
+        Color blue = Color.FromRgb(0, 0, 255);
+        Color yellow = Color.FromRgb(255, 255, 0);
+        Color magneta = Color.FromRgb(255, 0, 255);
+        Color cyan = Color.FromRgb(0, 255, 255);
+        Color white = Color.FromRgb(255, 255, 255);
+
         public ColourCoolDevice()
         {
+
             InitializeComponent();
-            cmbColors.ItemsSource = typeof(Colors).GetProperties();
+
+            cmbColors.Items.Add(red);
+            cmbColors.Items.Add(green);
+            cmbColors.Items.Add(blue);
+            cmbColors.Items.Add(yellow);
+            cmbColors.Items.Add(magneta);
+            cmbColors.Items.Add(cyan);
+            cmbColors.Items.Add(white);
+
+            //cmbColors.ItemsSource = typeof(Colors).GetProperties();
             
         }
 
@@ -31,9 +50,11 @@ namespace ColourCool
         {
             Object guanda = cmbColors.SelectedItem;
             Console.WriteLine("What am I? " + guanda.ToString());
+            Application.Current.Resources["ApplicationScopeColor"] = guanda.ToString();
 
             string dop = companyID.Text;
             Console.WriteLine("What am I? " + dop);
+            Application.Current.Resources["ApplicationScopeID"] = dop;
         }
     }
 }

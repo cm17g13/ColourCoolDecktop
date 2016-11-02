@@ -89,7 +89,7 @@ namespace ColourCool
         private void passwordBox_TextInput(object sender, TextChangedEventArgs e)
         {
             wifiPassword = passwordBox.Text;
-            Application.Current.Resources["ApplicationScope"] = wifiPassword;
+            Application.Current.Resources["ApplicationScopePassword"] = wifiPassword;
             Console.WriteLine(wifiPassword);
         }
     }
