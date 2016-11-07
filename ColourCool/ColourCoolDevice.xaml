@@ -22,41 +22,9 @@
             </ComboBox> -->
 
             <ComboBox x:Name="cmbColors">
-                <ComboBoxItem>
-                    <StackPanel Orientation="Horizontal">
-                        <TextBlock Foreground="Red">Red</TextBlock>
-                    </StackPanel>
-                </ComboBoxItem>
-                <ComboBoxItem>
-                    <StackPanel Orientation="Horizontal">
-                        <TextBlock Foreground="Yellow">Yellow</TextBlock>
-                    </StackPanel>
-                </ComboBoxItem>
-                <ComboBoxItem>
-                    <StackPanel Orientation="Horizontal">
-                        <TextBlock Foreground="Green">Green</TextBlock>
-                    </StackPanel>
-                </ComboBoxItem>
-                <ComboBoxItem>
-                    <StackPanel Orientation="Horizontal">
-                        <TextBlock Foreground="Cyan">Cyan</TextBlock>
-                    </StackPanel>
-                </ComboBoxItem>
-                <ComboBoxItem>
-                    <StackPanel Orientation="Horizontal">
-                        <TextBlock Foreground="Blue">Blue</TextBlock>
-                    </StackPanel>
-                </ComboBoxItem>
-                <ComboBoxItem>
-                    <StackPanel Orientation="Horizontal">
-                        <TextBlock Foreground="Magenta">Magenta</TextBlock>
-                    </StackPanel>
-                </ComboBoxItem>
-                <ComboBoxItem>
-                    <StackPanel Orientation="Horizontal">
-                        <TextBlock Foreground="Black">White</TextBlock>
-                    </StackPanel>
-                </ComboBoxItem>
+                <ComboBoxItem>ComboBox Item #1</ComboBoxItem>
+                <ComboBoxItem IsSelected="True">ComboBox Item #2</ComboBoxItem>
+                <ComboBoxItem>ComboBox Item #3</ComboBoxItem>
             </ComboBox>
 
 
