@@ -10,26 +10,10 @@
 
     <Grid>
         <StackPanel Margin="71,105,142,92">
-           <!-- <ComboBox x:Name="cmbColors">
-                <ComboBox.ItemTemplate>
-                    <DataTemplate>
-                        <StackPanel Orientation="Horizontal">
-                            <Rectangle Fill="{Binding Name}" Width="16" Height="16" Margin="0,2,5,2" />
-                            <TextBlock Text="{Binding Name}" />
-                        </StackPanel>
-                    </DataTemplate>
-                </ComboBox.ItemTemplate>
-            </ComboBox> -->
-
             <ComboBox x:Name="cmbColors">
                 <ComboBoxItem>
                     <StackPanel Orientation="Horizontal">
                         <TextBlock Foreground="Red">Red</TextBlock>
-                    </StackPanel>
-                </ComboBoxItem>
-                <ComboBoxItem>
-                    <StackPanel Orientation="Horizontal">
-                        <TextBlock Foreground="Yellow">Yellow</TextBlock>
                     </StackPanel>
                 </ComboBoxItem>
                 <ComboBoxItem>
@@ -39,27 +23,10 @@
                 </ComboBoxItem>
                 <ComboBoxItem>
                     <StackPanel Orientation="Horizontal">
-                        <TextBlock Foreground="Cyan">Cyan</TextBlock>
-                    </StackPanel>
-                </ComboBoxItem>
-                <ComboBoxItem>
-                    <StackPanel Orientation="Horizontal">
                         <TextBlock Foreground="Blue">Blue</TextBlock>
                     </StackPanel>
                 </ComboBoxItem>
-                <ComboBoxItem>
-                    <StackPanel Orientation="Horizontal">
-                        <TextBlock Foreground="Magenta">Magenta</TextBlock>
-                    </StackPanel>
-                </ComboBoxItem>
-                <ComboBoxItem>
-                    <StackPanel Orientation="Horizontal">
-                        <TextBlock Foreground="Black">White</TextBlock>
-                    </StackPanel>
-                </ComboBoxItem>
             </ComboBox>
-
-
         </StackPanel>
         <Label x:Name="label" Content="Choose a unique colour for your device:" HorizontalAlignment="Left" Margin="32,69,0,0" VerticalAlignment="Top" Width="241"/>
         <Label x:Name="label_uniqueID" Content="Unique ID" HorizontalAlignment="Left" Margin="32,153,0,0" VerticalAlignment="Top" Width="241"/>

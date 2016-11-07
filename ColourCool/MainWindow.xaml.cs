@@ -35,6 +35,7 @@ namespace ColourCool
             input.Visibility = Visibility.Hidden;           
             ConnectionDetails.Content = new ColourCoolDevice();
             connectButton.Visibility = Visibility.Visible;
+            Console.WriteLine("trying to open next plage");
         }
 
         private void connect_Click(object sender, RoutedEventArgs e)
