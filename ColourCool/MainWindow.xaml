@@ -10,7 +10,7 @@
         <Label x:Name="label" Content="ColourCool Setup" HorizontalAlignment="Left" Margin="176,0,0,0" VerticalAlignment="Top" FontSize="20" FontFamily="Calibri"/>
         <Frame x:Name="ConnectionDetails" Margin="0,35,0,40.5" NavigationUIVisibility="Hidden"/>
         <Button x:Name="next" Content="Next" HorizontalAlignment="Left" Margin="401,322,0,0" VerticalAlignment="Top" Width="115" BorderThickness="0,0,1,2" Background="#FF009F00" Foreground="White" BorderBrush="#FF006100" FontWeight="Bold" Click="next_Click" Height="30"/>
-        <Button x:Name="connectButton" Content="Connect" HorizontalAlignment="Left" Margin="401,322,0,0" VerticalAlignment="Top" Width="115" BorderThickness="0,0,1,2" Background="#FF009F00" Foreground="White" BorderBrush="#FF006100" FontWeight="Bold" Click="next_Click" Height="30" Visibility="Hidden" />
+        <Button x:Name="connectButton" Content="Connect" HorizontalAlignment="Left" Margin="401,322,0,0" VerticalAlignment="Top" Width="115" BorderThickness="0,0,1,2" Background="#FF009F00" Foreground="White" BorderBrush="#FF006100" FontWeight="Bold" Click="connect_Click" Height="30" Visibility="Hidden" />
 
     </Grid>
 </Window>
