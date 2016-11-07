@@ -20,7 +20,7 @@ namespace ColourCool
     /// </summary>
     public partial class ColourCoolDevice : Page
     {
-        public String[] arr;
+        /*public String[] arr = new String[7];
         Color red = Color.FromRgb(255, 0, 0);
         Color green = Color.FromRgb(0, 255, 0);
         Color blue = Color.FromRgb(0, 0, 255);
@@ -28,10 +28,11 @@ namespace ColourCool
         Color magneta = Color.FromRgb(255, 0, 255);
         Color cyan = Color.FromRgb(0, 255, 255);
         Color white = Color.FromRgb(255, 255, 255);
+        */
 
         public ColourCoolDevice()
         {
-
+            /*
             arr = new String[7];
             InitializeComponent();
             arr[0] = "red";
@@ -45,7 +46,7 @@ namespace ColourCool
 
             cmbColors.ItemsSource = arr;
             //cmbColors.ItemsSource = typeof(Colors).GetProperties();
-
+            */
         }
 
         private void companyID_TextInput(object sender, TextChangedEventArgs e)
