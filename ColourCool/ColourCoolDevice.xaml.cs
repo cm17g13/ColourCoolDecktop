@@ -50,7 +50,8 @@ namespace ColourCool
 
         private void companyID_TextInput(object sender, TextChangedEventArgs e)
         {
-            Object guanda = cmbColors.SelectedItem;
+            ComboBoxItem comboItem = (ComboBoxItem)cmbColors.SelectedItem;
+            Char guanda = comboItem.Name[4];
             Console.WriteLine("What am I? " + guanda.ToString());
             Application.Current.Resources["ApplicationScopeColor"] = guanda.ToString();
 

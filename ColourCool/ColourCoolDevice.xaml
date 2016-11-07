@@ -11,37 +11,37 @@
     <Grid>
         <StackPanel Margin="71,105,142,92">
             <ComboBox x:Name="cmbColors">
-                <ComboBoxItem>
+                <ComboBoxItem x:Name="Item1">
                     <StackPanel Orientation="Horizontal">
                         <TextBlock Foreground="Red">Red</TextBlock>
                     </StackPanel>
                 </ComboBoxItem>
-                <ComboBoxItem>
+                <ComboBoxItem x:Name="Item2">
                     <StackPanel Orientation="Horizontal">
                         <TextBlock Foreground="Yellow">Yellow</TextBlock>
                     </StackPanel>
                 </ComboBoxItem>
-                <ComboBoxItem>
+                <ComboBoxItem x:Name="Item3">
                     <StackPanel Orientation="Horizontal">
                         <TextBlock Foreground="Green">Green</TextBlock>
                     </StackPanel>
                 </ComboBoxItem>
-                <ComboBoxItem>
+                <ComboBoxItem x:Name="Item4">
                     <StackPanel Orientation="Horizontal">
                         <TextBlock Foreground="Cyan">Cyan</TextBlock>
                     </StackPanel>
                 </ComboBoxItem>
-                <ComboBoxItem>
+                <ComboBoxItem x:Name="Item5">
                     <StackPanel Orientation="Horizontal">
                         <TextBlock Foreground="Blue">Blue</TextBlock>
                     </StackPanel>
                 </ComboBoxItem>
-                <ComboBoxItem>
+                <ComboBoxItem x:Name="Item6">
                     <StackPanel Orientation="Horizontal">
                         <TextBlock Foreground="Magenta">Magenta</TextBlock>
                     </StackPanel>
                 </ComboBoxItem>
-                <ComboBoxItem>
+                <ComboBoxItem x:Name="Item7">
                     <StackPanel Orientation="Horizontal">
                         <TextBlock Foreground="Black">White</TextBlock>
                     </StackPanel>
