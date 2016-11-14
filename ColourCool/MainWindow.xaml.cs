@@ -50,13 +50,14 @@ namespace ColourCool
             Console.WriteLine("Device UserID: " + deviceID);
 
             // Create a string array with the lines of text
-            string[] lines = { "#define SSID " + wifiName, "#define PASS " + wifiPassword, "#define COL " + deviceColor, "#define USERID " + deviceID };
+            string[] lines = { "#define SSID " + wifiName, "#define PASS " + wifiPassword, "#define COL " + deviceColor, "#define USERID " + deviceID, "#define DELAY 1000"};
 
             // Set a variable to the My Documents path.
-            string myDocPath = Environment.GetFolderPath(Environment.SpecialFolder.Desktop);
+            //string myDocPath = Environment.GetFolderPath(Environment.SpecialFolder.Desktop);
 
             // Write the string array to a new file named "WriteLines.txt".
-            using (StreamWriter outputFile = new StreamWriter(myDocPath + @"\wifiInfo.txt"))
+            //using (StreamWriter outputFile = new StreamWriter(myDocPath + @"\wifiInfo.h"))
+            using (StreamWriter outputFile = new StreamWriter("./wifiInfo.h"))
             {
                 foreach (string line in lines)
                     outputFile.WriteLine(line);
